@@ -1,0 +1,4 @@
+{
+  "baseline": "./db/raw-data-normal-sample.csv",
+  "anomaly": "./db/raw-data-anomaly-sample.csv"
+}

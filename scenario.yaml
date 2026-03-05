@@ -1,0 +1,18 @@
+profiles_dir: ./profiles/
+
+scenario:
+  start_time: "2026-01-22T00:00:00Z"
+  step_seconds: 60
+
+  segments:
+    - regime: baseline
+      duration_minutes: 60
+
+    - regime: anomaly
+      duration_minutes: 15
+
+    - regime: baseline
+      duration_minutes: 45
+
+ground_truth:
+  output: ./output/ground_truth.csv
